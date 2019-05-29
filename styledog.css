@@ -1,0 +1,124 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#area {
+	margin: 0 auto;
+	padding: 0px 25px 0px 25px;
+}
+
+#area-principal {
+	padding-left: 25px; 
+	padding-right: 25px; 
+	margin: 55px auto 10px auto;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	float: right;
+	padding: 10px 0;
+}
+
+h2 {
+	color: #B49A67;
+}
+
+/****************************************************
+***********************Formatação do menu************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links hover*/
+a:hover {
+	color: #fff;
+	background: #B49A67;
+}
+
+/*Links active*/
+a:active {
+	color: #581908;
+}
+
+/*Classes*/
+.area-carrosel {
+	position: relative;
+}
+.carousel_image {
+	margin: 0px auto;
+	height: auto;
+	width: 100%;
+}
+
+.botao {
+	background-color: #B49A67;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+.carousel_right_but, .carousel_left_but{
+	background-color: #B49A67;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.area-carrosel .carousel_left_but{
+	position: absolute;
+	top: 45%;
+	left: 0%;
+	float: left;
+}
+
+.area-carrosel .carousel_right_but{
+	position: absolute;
+	top: 45%;
+	right: 0%;
+	float: right;
+}
+
+.marrom {
+	color: #754E00;
+}
+
+.area_presentation {
+	border: 1px solid red;
+}
